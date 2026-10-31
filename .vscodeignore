@@ -1,0 +1,11 @@
+.github/**
+.vscode/**
+scripts/**
+node_modules/**
+.editorconfig
+.gitattributes
+.gitignore
+CONTRIBUTING.md
+package-lock.json
+*.vsix
+*.zip

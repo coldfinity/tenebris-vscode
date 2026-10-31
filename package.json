@@ -1,0 +1,61 @@
+{
+  "name": "tenebris-vscode",
+  "displayName": "Tenebris for VS Code",
+  "description": "Tenebris: complete dark and lavender VS Code colour theme with matching file icons, adapted from tenebris.nvim.",
+  "version": "0.3.5",
+  "icon": "icon.png",
+  "publisher": "coldfinity",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coldfinity/tenebris-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "tenebris",
+    "dark",
+    "purple",
+    "lavender",
+    "minimal",
+    "neovim",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tenebris",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tenebris-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active"
+    },
+    "iconThemes": [
+      {
+        "id": "tenebris-icons",
+        "label": "Tenebris Icons",
+        "path": "./icons/tenebris-icon-theme.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/coldfinity/tenebris-vscode/issues"
+  },
+  "homepage": "https://github.com/coldfinity/tenebris-vscode#readme",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
+  },
+  "private": true
+}
