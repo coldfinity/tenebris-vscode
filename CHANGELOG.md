@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.0]
+
+### Added
+- **Tenebris Light** colour theme: a dimmer light variant with a faint lavender tint on the UI and the same lavender accent, darkened for contrast.
+- Light variants of every file icon, used automatically with light colour themes.
+- Bold styling for word-like keywords (`and`, `or`, `not`, `from`, `struct`, `enum`, `sizeof`) and language constants (`True`, `None`, `NULL`, ...) in both themes.
+
 ## [0.3.5]
 
 ### Added

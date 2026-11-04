@@ -789,6 +789,34 @@
         "foreground": "#b0b0b0",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Word-like keywords",
+      "scope": [
+        "keyword.operator.logical.python",
+        "keyword.operator.wordlike",
+        "keyword.operator.sizeof",
+        "keyword.control.import.from",
+        "storage.type.struct",
+        "storage.type.enum"
+      ],
+      "settings": {
+        "foreground": "#ebebeb",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Language constants (bold)",
+      "scope": [
+        "constant.language.python",
+        "constant.language.true",
+        "constant.language.false",
+        "constant.language.null",
+        "constant.language.none"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
     }
   ],
   "semanticTokenColors": {

@@ -123,6 +123,129 @@
     },
     "objectivec": {
       "iconPath": "./objectivec.svg"
+    },
+    "file-light": {
+      "iconPath": "./light/file.svg"
+    },
+    "folder-light": {
+      "iconPath": "./light/folder.svg"
+    },
+    "folder-open-light": {
+      "iconPath": "./light/folder-open.svg"
+    },
+    "code-light": {
+      "iconPath": "./light/code.svg"
+    },
+    "python-light": {
+      "iconPath": "./light/python.svg"
+    },
+    "braces-light": {
+      "iconPath": "./light/braces.svg"
+    },
+    "config-light": {
+      "iconPath": "./light/config.svg"
+    },
+    "markdown-light": {
+      "iconPath": "./light/markdown.svg"
+    },
+    "html-light": {
+      "iconPath": "./light/html.svg"
+    },
+    "css-light": {
+      "iconPath": "./light/css.svg"
+    },
+    "terminal-light": {
+      "iconPath": "./light/terminal.svg"
+    },
+    "image-light": {
+      "iconPath": "./light/image.svg"
+    },
+    "database-light": {
+      "iconPath": "./light/database.svg"
+    },
+    "git-light": {
+      "iconPath": "./light/git.svg"
+    },
+    "lock-light": {
+      "iconPath": "./light/lock.svg"
+    },
+    "text-light": {
+      "iconPath": "./light/text.svg"
+    },
+    "test-light": {
+      "iconPath": "./light/test.svg"
+    },
+    "package-light": {
+      "iconPath": "./light/package.svg"
+    },
+    "vue-light": {
+      "iconPath": "./light/vue.svg"
+    },
+    "react-light": {
+      "iconPath": "./light/react.svg"
+    },
+    "rust-light": {
+      "iconPath": "./light/rust.svg"
+    },
+    "c-light": {
+      "iconPath": "./light/c.svg"
+    },
+    "cpp-light": {
+      "iconPath": "./light/cpp.svg"
+    },
+    "typescript-light": {
+      "iconPath": "./light/typescript.svg"
+    },
+    "javascript-light": {
+      "iconPath": "./light/javascript.svg"
+    },
+    "r-light": {
+      "iconPath": "./light/r.svg"
+    },
+    "java-light": {
+      "iconPath": "./light/java.svg"
+    },
+    "go-light": {
+      "iconPath": "./light/go.svg"
+    },
+    "lua-light": {
+      "iconPath": "./light/lua.svg"
+    },
+    "swift-light": {
+      "iconPath": "./light/swift.svg"
+    },
+    "kotlin-light": {
+      "iconPath": "./light/kotlin.svg"
+    },
+    "ruby-light": {
+      "iconPath": "./light/ruby.svg"
+    },
+    "php-light": {
+      "iconPath": "./light/php.svg"
+    },
+    "scala-light": {
+      "iconPath": "./light/scala.svg"
+    },
+    "dart-light": {
+      "iconPath": "./light/dart.svg"
+    },
+    "haskell-light": {
+      "iconPath": "./light/haskell.svg"
+    },
+    "julia-light": {
+      "iconPath": "./light/julia.svg"
+    },
+    "zig-light": {
+      "iconPath": "./light/zig.svg"
+    },
+    "shell-light": {
+      "iconPath": "./light/shell.svg"
+    },
+    "rmarkdown-light": {
+      "iconPath": "./light/rmarkdown.svg"
+    },
+    "objectivec-light": {
+      "iconPath": "./light/objectivec.svg"
     }
   },
   "file": "file",
@@ -256,5 +379,137 @@
     "config": "config",
     "scripts": "terminal"
   },
-  "light": {}
+  "light": {
+    "file": "file-light",
+    "folder": "folder-light",
+    "folderExpanded": "folder-open-light",
+    "rootFolder": "folder-light",
+    "rootFolderExpanded": "folder-open-light",
+    "fileExtensions": {
+      "py": "python-light",
+      "pyi": "python-light",
+      "js": "javascript-light",
+      "jsx": "react-light",
+      "mjs": "javascript-light",
+      "cjs": "javascript-light",
+      "ts": "typescript-light",
+      "tsx": "react-light",
+      "vue": "vue-light",
+      "lua": "lua-light",
+      "cpp": "cpp-light",
+      "cc": "cpp-light",
+      "c": "c-light",
+      "h": "c-light",
+      "hpp": "cpp-light",
+      "java": "java-light",
+      "go": "go-light",
+      "rs": "rust-light",
+      "swift": "swift-light",
+      "kt": "kotlin-light",
+      "scala": "scala-light",
+      "rb": "ruby-light",
+      "php": "php-light",
+      "sh": "shell-light",
+      "bash": "shell-light",
+      "zsh": "shell-light",
+      "ps1": "terminal-light",
+      "bat": "terminal-light",
+      "json": "braces-light",
+      "jsonc": "braces-light",
+      "yaml": "config-light",
+      "yml": "config-light",
+      "toml": "config-light",
+      "ini": "config-light",
+      "env": "config-light",
+      "xml": "html-light",
+      "html": "html-light",
+      "htm": "html-light",
+      "css": "css-light",
+      "scss": "css-light",
+      "less": "css-light",
+      "md": "markdown-light",
+      "mdx": "markdown-light",
+      "txt": "text-light",
+      "rst": "text-light",
+      "sql": "database-light",
+      "db": "database-light",
+      "sqlite": "database-light",
+      "ipynb": "python-light",
+      "svg": "image-light",
+      "png": "image-light",
+      "jpg": "image-light",
+      "jpeg": "image-light",
+      "webp": "image-light",
+      "gif": "image-light",
+      "ico": "image-light",
+      "lock": "lock-light",
+      "test": "test-light",
+      "pyw": "python-light",
+      "i": "c-light",
+      "cxx": "cpp-light",
+      "c++": "cpp-light",
+      "hh": "cpp-light",
+      "hxx": "cpp-light",
+      "ipp": "cpp-light",
+      "tpp": "cpp-light",
+      "ixx": "cpp-light",
+      "mts": "typescript-light",
+      "cts": "typescript-light",
+      "r": "r-light",
+      "R": "r-light",
+      "rproj": "r-light",
+      "rmd": "rmarkdown-light",
+      "Rmd": "rmarkdown-light",
+      "qmd": "rmarkdown-light",
+      "kts": "kotlin-light",
+      "rake": "ruby-light",
+      "gemspec": "ruby-light",
+      "sc": "scala-light",
+      "dart": "dart-light",
+      "hs": "haskell-light",
+      "lhs": "haskell-light",
+      "jl": "julia-light",
+      "zig": "zig-light",
+      "fish": "shell-light",
+      "m": "objectivec-light",
+      "mm": "objectivec-light"
+    },
+    "fileNames": {
+      "package.json": "package-light",
+      "package-lock.json": "lock-light",
+      "pnpm-lock.yaml": "lock-light",
+      "yarn.lock": "lock-light",
+      "Cargo.toml": "rust-light",
+      "Cargo.lock": "lock-light",
+      "requirements.txt": "python-light",
+      "pyproject.toml": "python-light",
+      "Dockerfile": "package-light",
+      "docker-compose.yml": "package-light",
+      ".gitignore": "git-light",
+      ".gitattributes": "git-light",
+      ".gitmodules": "git-light",
+      "README.md": "markdown-light",
+      "LICENSE": "text-light",
+      "Makefile": "config-light",
+      "CMakeLists.txt": "config-light",
+      "tsconfig.json": "config-light",
+      "vite.config.ts": "config-light",
+      "vitest.config.ts": "test-light",
+      "jest.config.js": "test-light",
+      ".env": "lock-light",
+      ".env.local": "lock-light",
+      "settings.json": "config-light"
+    },
+    "folderNames": {
+      "src": "code-light",
+      "test": "test-light",
+      "tests": "test-light",
+      "__tests__": "test-light",
+      "assets": "image-light",
+      "images": "image-light",
+      ".github": "git-light",
+      "config": "config-light",
+      "scripts": "terminal-light"
+    }
+  }
 }
