@@ -9,3 +9,5 @@ CONTRIBUTING.md
 package-lock.json
 *.vsix
 *.zip
+sample/**
+images/**

@@ -2,7 +2,7 @@
   "name": "tenebris-vscode",
   "displayName": "Tenebris for VS Code",
   "description": "Tenebris: complete dark and lavender VS Code colour theme with matching file icons, adapted from tenebris.nvim.",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "icon": "icon.png",
   "publisher": "coldfinity",
   "license": "MIT",
@@ -31,6 +31,11 @@
         "label": "Tenebris",
         "uiTheme": "vs-dark",
         "path": "./themes/tenebris-color-theme.json"
+      },
+      {
+        "label": "Tenebris Light",
+        "uiTheme": "vs",
+        "path": "./themes/tenebris-light-color-theme.json"
       }
     ],
     "configurationDefaults": {
